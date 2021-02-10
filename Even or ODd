@@ -1,0 +1,17 @@
+package Master_Ali;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        int number1;
+        System.out.println("Please enter first number: ");
+        Scanner input = new Scanner(System.in);
+        number1 = input.nextInt();
+
+        if (number1 % 2 == 0) {
+            System.out.println("The number is even");
+        } else {
+            System.out.println("The number is odd");
+        }
+    }
+}
